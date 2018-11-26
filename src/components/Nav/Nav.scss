@@ -1,0 +1,28 @@
+@import "../../scss/_variable.scss";
+
+.nav {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    .new-game {
+        width: 130px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background-color: #4CAF50;
+        color: black;
+        padding: 10px 0px;
+        font-size: 16px;
+        color: $White;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+        transition: all 0.3s ease-in-out;
+        font-weight: 500;
+        font-family: $Roboto;
+        letter-spacing: 0.5px;
+        &:active {
+            box-shadow: inset 0px 0px 10px 2px rgba( 0, 0, 0, 0.5);
+            background-color: #4CAF50;
+        }
+    }
+}

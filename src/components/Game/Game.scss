@@ -1,0 +1,18 @@
+@import "../../scss/_variable.scss";
+
+.game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: $cardHeight;
+    display: inline-block;
+    vertical-align: middle;
+    div{
+        :nth-child(3)
+        {
+            left: 100px;
+        }
+    }
+}

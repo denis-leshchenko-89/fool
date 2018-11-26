@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Rammetto+One|Roboto');
+@import "~material-design-icons/iconfont/material-icons.css";
+@import url('../node_modules/font-awesome/css/font-awesome.min.css');
+@import "./scss/_variable.scss";
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: $Roboto;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: $Blue;
+    padding:15px;
+}
