@@ -1,7 +1,7 @@
 # Fool
 Должно быть установлено Node.js и npm
 
-скачали с гита проект
+## Cкачали с гита проект
 
 https://github.com/denis-leshchenko-89/foll.git
 
